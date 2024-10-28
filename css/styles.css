@@ -323,13 +323,26 @@
 
 /* mood styles */
 
+.mood {
+    background-image: url(/images/mood.jpg);
+}
+
+.mood_block {
+    background-color: #000000;
+    width: 550px;
+    height: 303px;
+    text-align: center;
+    padding: 40px;
+}
+
 .mood_title {
     font-family: Liberation Serif;
     font-size: 55px;
     font-weight: 400;
     line-height: 80px;
     text-align: center;
-    color: #FFFFFF;    
+    color: #FFFFFF;
+    margin-bottom: 9px;   
 }
 
 .mood_text {
@@ -338,7 +351,8 @@
     font-weight: 400;
     line-height: 28px;
     text-align: center;
-    color: #FFFFFF;    
+    color: #FFFFFF;
+    margin-bottom: 26px;    
 }
 
 .mood_btn {
@@ -350,8 +364,16 @@
     text-align: center;
     color: #000000;
     border: 1px solid #FFFFFF;
-    background-color: inherit;
+    background-color: #FFFFFF;
     padding: 18px 58px; 
+}
+
+.mood_bottom_block {
+    background-color: #000000;
+    width: 400px;
+    height: 200px;
+    text-align: center;
+    padding: 5px;
 }
 
 .mood_sub_text {
@@ -360,16 +382,16 @@
     font-weight: 400;
     line-height: 28px;
     text-align: center;
-    color: #FFFFFF;    
+    color: #FFFFFF; 
+    margin-bottom: 15px;
 }
-
 .mood_link {
     font-family: Roboto;
     font-size: 16px;
     font-weight: 400;
     line-height: 28px;
     text-align: center;
-    color: #FFFFFF;    
+    color: #FFFFFF; 
 }
 
 /* footer styles */
