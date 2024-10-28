@@ -171,6 +171,16 @@
 
 /* lemonade styles */
 
+.lemonade_block {
+    display: flex;
+    justify-content: center;
+}
+
+.lemonade_text_block {
+    display: flex;
+    padding: 55px 62px 105px 62px;
+}
+
 .lemonade_title {
     font-family: Liberation Serif;
     font-size: 53px;
@@ -178,6 +188,7 @@
     line-height: 80px;
     text-align: left;
     color: #000000;
+    margin-right: 343px;
 }
 
 .lemonade_text {
@@ -191,13 +202,23 @@
 
 /* easy styles */
 
+.easy {
+    display: flex;
+    padding: 60px 60px 50px 60px;
+}
+
+.easy_item {
+    margin-right: 55px;
+}
+
 .easy_title {
     font-family: Liberation Serif;
     font-size: 30px;
     font-weight: 400;
     line-height: 44px;
     text-align: left;
-    color: #000000;    
+    color: #000000;
+    margin-bottom: 19px;  
 }
 
 .easy_text {
@@ -206,7 +227,8 @@
     font-weight: 400;
     line-height: 32px;
     text-align: left;
-    color: #000000;   
+    color: #000000;
+    margin-bottom: 20px; 
 }
 
 /* notes styles */
