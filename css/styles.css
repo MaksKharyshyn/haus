@@ -87,7 +87,6 @@
     margin-right: 186px;
 }
 
-
 .brands_text {
     font-family: Roboto;
     font-size: 18px;
@@ -99,13 +98,18 @@
 
 /* natural styles */
 
+.natural_upper_block {
+    padding: 106px 324px 82px 324px;
+}
+
 .natural_title {
     font-family: Liberation Serif;
     font-size: 64px;
     font-weight: 400;
     line-height: 80px;
     text-align: center;
-    color: #000000;    
+    color: #000000;
+    margin-bottom: 24px;    
 }
 
 .natural_text {
@@ -118,13 +122,28 @@
     color: #000000;    
 }
 
+.natural_list {
+    display: flex;
+    text-align: center;
+    padding: 0px 64px 141px 64px;
+}
+
+.natural_item {
+    margin-right: 54px;
+}
+
+.natural_item:last-child {
+    margin-right: 0;
+}
+
 .natural_sub_title {
     font-family: Liberation Serif;
     font-size: 30px;
     font-weight: 400;
     line-height: 44px;
     text-align: center;
-    color: #000000;    
+    color: #000000;
+    margin-bottom: 16px;  
 }
 
 .natural_sub_text {
@@ -133,7 +152,8 @@
     font-weight: 400;
     line-height: 28px;
     text-align: center;
-    color: #000000;    
+    color: #000000;
+    margin-bottom: 27px; 
 }
 
 .natural_btn {
@@ -145,7 +165,7 @@
     text-align: center;
     color: #FFFFFF;
     border: 1px solid #191919;
-    background-color: inherit;
+    background-color: #191919;
     padding: 19px 48px;
 }
 
